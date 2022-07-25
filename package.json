@@ -1,0 +1,60 @@
+{
+    "name": "mazdarx7",
+    "author": "John Spahr",
+    "version": "1.0.0",
+    "dependencies": {},
+    "pebble": {
+        "displayName": "Mazda RX7",
+        "uuid": "4c43aacf-eeca-43fc-acef-eeb93eecaeee",
+        "sdkVersion": "3",
+        "enableMultiJS": true,
+        "targetPlatforms": [
+            "basalt",
+            "chalk"
+        ],
+        "watchapp": {
+            "watchface": true
+        },
+        "resources": {
+            "media": [{
+                    "file": "images/icon.png",
+                    "menuIcon": true,
+                    "name": "IMAGE_MAZDA_MONO_ICON",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/1.png",
+                    "name": "IMAGE_MAZDA_0",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/2.png",
+                    "name": "IMAGE_MAZDA_1",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/3.png",
+                    "name": "IMAGE_MAZDA_2",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/4.png",
+                    "name": "IMAGE_MAZDA_3",
+                    "type": "bitmap"
+                },
+                {
+                    "type": "font",
+                    "name": "FONT_COOPER_28",
+                    "file": "fonts/Cooper.ttf",
+                    "compatibility": "2.7"
+                },
+                {
+                    "type": "font",
+                    "name": "FONT_CONTRAIL_18",
+                    "file": "fonts/Contrail.ttf",
+                    "compatibility": "2.7"
+                }
+            ]
+        }
+    }
+}
